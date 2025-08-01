@@ -7,6 +7,8 @@ html {
 body {
  color: #383e45;
  font-size: 0.9rem;
+ /* background-color: #FAE5E7; */
+ background-color: #CBFFD3;
 }
 
 a {
@@ -15,15 +17,14 @@ a {
 
 img {
  max-width: 100%;
+ border-radius: 50px;
 }
 
 li {
  list-style: none;
 }
 
-/*-------------------------------------------
-ヘッダー
--------------------------------------------*/
+/* header */
 #header {
  display: flex;
  justify-content: space-around;
@@ -57,6 +58,18 @@ li {
  opacity: 0.7;
 }
 
+
+.site-title {
+ width: 120px;
+ line-height: 1px;
+ padding: 10px 0;
+}
+
+.site-title a {
+ display: block;
+}
+
+
 /*-------------------------------------------
 Mainvisual
 -------------------------------------------*/
@@ -64,10 +77,7 @@ main {
  padding-top: 80px;
  margin: 0 auto;
  width: 90%;
-}
 
-#mainvisual {
- margin-bottom: 80px;
 }
 
 #mainvisual img {
@@ -104,18 +114,6 @@ main {
  margin-top: 20px;
 }
 
-
-
-.site-title {
- width: 120px;
- line-height: 1px;
- padding: 10px 0;
-}
-
-.site-title a {
- display: block;
-}
-
 .about-ttl {
  display: inline-block;
  font-size: 2rem;
@@ -127,11 +125,7 @@ main {
  margin: 10px 0;
 }
 
-/*  */
-
-/*-------------------------------------------
-About
--------------------------------------------*/
+/* About */
 .about {
  margin: 0 auto;
  padding: 0 4%;
@@ -206,21 +200,7 @@ About
  }
 }
 
-/*-------------------------------------------
-Bicycle
--------------------------------------------*/
-#bicycle ul {
- display: flex;
- justify-content: space-between;
-}
-
-#bicycle li {
- width: 32%;
-}
-
-/*-------------------------------------------
-footer
--------------------------------------------*/
+/* footer */
 #footer {
  font-size: 0.5rem;
  padding: 10px 0;
@@ -250,15 +230,4 @@ SP
   margin-right: 0;
  }
 
- /*-------------------------------------------
-  Bicycle
-  -------------------------------------------*/
- #bicycle ul {
-  flex-direction: column;
- }
-
- #bicycle li {
-  width: 100%;
-  margin-bottom: 30px;
- }
 }
