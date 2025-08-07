@@ -178,6 +178,7 @@ main {
 .works ul li {
  width: 32%;
  list-style: none;
+ text-align: left;
 }
 
 .works ul li img {
