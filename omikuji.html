@@ -1,4 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
 
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>おみくじアプリ - 詳細</title>
+ <link rel="stylesheet" href="css/omikuji.css">
+</head>
 
+<body>
+ <header id="header" class="header">
+  <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="Profile"></a></h1>
+  <nav>
+   <ul>
+    <li><a href="index.html#myProfile">myProfile</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#works">works</a></li>
+   </ul>
+  </nav>
+ </header>
 
-<h1>test</h1>
+ <main>
+  <h2 class="page-title">おみくじアプリ</h2>
+
+  <div class="github-link-container">
+   <a href="【ここにGitHubのリンクを挿入】" target="_blank" rel="noopener noreferrer" class="github-link-button">
+    GitHubのリンクはこちら
+   </a>
+  </div>
+
+  <section class="section-container">
+   <h2>どんな仕様か</h2>
+   <ul class="spec-list">
+    <li><strong>おみくじを引く</strong>: 「おみくじを引く」ボタンを押すと、ランダムに「大吉」や「凶」などの結果が表示されます。</li>
+    <li><strong>結果の表示</strong>: 結果に合わせて、違うおみくじの画像が表示されます。</li>
+    <li><strong>画面の移動</strong>: おみくじの結果が出ると、結果画面に自動で移動するようになっています。</li>
+   </ul>
+  </section>
+
+  <section class="section-container">
+   <h2>自分のどんな知識が役に立ったか</h2>
+   <ul class="knowledge-list">
+    <li>
+     <h3>画面の作り方</h3>
+     <p>アプリの画面を作るために、XMLというファイルを使って、ボタンや画像を配置する知識が役に立ちました。</p>
+    </li>
+    <li>
+     <h3>画面の移動方法</h3>
+     <p>メイン画面から結果画面へ移動するために、Intentという機能を使ってデータを渡しながら画面を切り替える方法を学びました。</p>
+    </li>
+    <li>
+     <h3>結果をランダムに決める方法</h3>
+     <p>おみくじの結果をランダムにするために、乱数を生成し、その結果に合わせて表示する画像を切り替える基本的なロジックを実装しました。</p>
+    </li>
+   </ul>
+  </section>
+
+  <section class="section-container">
+   <h2>どこに苦労してどんな工夫をしたか</h2>
+   <ul class="difficulty-list">
+    <li>
+     <h3>画面間でデータを渡すこと</h3>
+     <p>メイン画面で決まったおみくじの結果を、結果画面に渡す仕組みを作るのに苦労しました。</p>
+    </li>
+    <li>
+     <h3>コードの整理</h3>
+     <p>画面移動のコードが複雑にならないように、メソッドにまとめることで、見やすく整理する工夫をしました。</p>
+    </li>
+   </ul>
+  </section>
+
+  <section class="section-container">
+   <h2>課題は何か、どうしていくか</h2>
+   <ul class="challenge-list">
+    <li>
+     <h3>もっと結果を増やす</h3>
+     <p>今は決まった結果しか出ませんが、外部ファイルを使って、もっとおみくじの結果を増やせるようにしたいです。</p>
+    </li>
+    <li>
+     <h3>アニメーションなどを追加する</h3>
+     <p>おみくじを引くときや結果が表示されるときに、もっと楽しい動きや演出を加えて、ユーザーが楽しめるようにしたいです。</p>
+    </li>
+   </ul>
+  </section>
+ </main>
+
+ <footer>
+  <p>&copy; 2025 ポートフォリオ</p>
+ </footer>
+</body>
+
+</html>

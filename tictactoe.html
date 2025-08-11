@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>三目並べアプリ - 詳細</title>
+ <link rel="stylesheet" href="css/tictactoe.css">
+</head>
+
+<body>
+ <header id="header" class="header">
+  <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="Profile"></a></h1>
+  <nav>
+   <ul>
+    <li><a href="index.html#myProfile">myProfile</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#works">works</a></li>
+   </ul>
+  </nav>
+ </header>
+
+ <main>
+  <h2 class="page-title">三目並べアプリ</h2>
+
+  <div class="github-link-container">
+   <!-- <a href="【ここにGitHubのリンクを挿入】" target="_blank" rel="noopener noreferrer" class="github-link-button">
+    GitHubのリンクはこちら
+   </a>
+  </div> -->
+  <a href="https://github.com/ak-work-web/TicTacToeApp" target="_blank" rel="noopener noreferrer" class="github-link-button">
+   GitHubのリンクはこちら
+  </a>
+  </div>
+  <section class="section-container">
+   <h2>どんな仕様か</h2>
+   <p>2人のプレイヤーが交互に「○」と「×」をマス目に配置し、縦・横・斜めのいずれかに3つ揃えることを目指す三目並べゲームです。</p>
+  </section>
+
+  <section class="section-container">
+   <h2>自分のどんな知識が役に立ったか</h2>
+   <ul class="knowledge-list">
+    <li>
+     <h3>Java</h3>
+     <p>ゲームのロジック（ターン管理、勝敗判定、引き分け判定）を実装しました。</p>
+    </li>
+    <li>
+     <h3>Android開発</h3>
+     <p>Activityクラスによる画面遷移、ViewクラスによるUI部品の配置とイベント処理、GridLayoutやLinearLayoutによるレイアウト設計を行いました。</p>
+    </li>
+   </ul>
+  </section>
+
+  <section class="section-container">
+   <h2>どこに苦労してどんな工夫をしたか</h2>
+   <ul class="difficulty-list">
+    <li>
+     <h3>苦労した点</h3>
+     <p>9つのボタンのクリックイベントを効率的に管理する点です。</p>
+    </li>
+    <li>
+     <h3>工夫した点</h3>
+     <p>9つのボタンを配列`buttons`にまとめ、ループ処理でクリックリスナーを一括で設定しました。これにより、冗長なコードを削減し、保守性を高めました。</p>
+    </li>
+   </ul>
+  </section>
+
+  <section class="section-container">
+   <h2>課題は何か、どうしていくか</h2>
+   <ul class="challenge-list">
+    <li>
+     <h3>課題</h3>
+     <p>現在は2人対戦のみですが、CPU（コンピュータ）との対戦機能を実装することで、1人でも遊べるように改善したいです。</p>
+    </li>
+    <li>
+     <h3>今後の展望</h3>
+     <p>CPUの思考アルゴリズムとして、簡単なランダム選択から、より戦略的なAIへと進化させることで、ゲームの面白さを向上させたいです。</p>
+    </li>
+   </ul>
+  </section>
+ </main>
+
+ <footer>
+  <p>&copy; 2025 ポートフォリオ</p>
+ </footer>
+</body>
+
+</html>
