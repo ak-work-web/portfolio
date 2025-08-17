@@ -170,9 +170,10 @@ main {
 
 .works ul {
  display: flex;
- gap: 20px;
+ gap: 10px 10px;
  padding: 0;
  justify-content: space-between;
+ flex-wrap: wrap;
 }
 
 .works ul li {
@@ -208,10 +209,10 @@ main {
  text-align: center;
 } */
 #footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #35495e;
-    color: #fff;
+ text-align: center;
+ padding: 1rem 0;
+ background-color: #35495e;
+ color: #fff;
 }
 
 /*-------------------------------------------

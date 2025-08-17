@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>三目並べアプリ - 詳細</title>
+ <link rel="stylesheet" href="css/tictactoe-console.css">
+</head>
+
+<body>
+ <header id="header" class="header">
+  <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="Profile"></a></h1>
+  <nav>
+   <ul>
+    <li><a href="index.html#myProfile">myProfile</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#works">works</a></li>
+   </ul>
+  </nav>
+ </header>
+
+ <main>
+  <h2 class="page-title">三目並べアプリ-console版</h2>
+
+  <div class="github-link-container">
+   <a href="https://github.com/ak-work-web/TicTacToeConsoleApp" target="_blank" rel="noopener noreferrer"
+    class="github-link-button">
+    GitHubのリンクはこちら
+   </a>
+  </div>
+  <section class="section-container">
+   <h2>どんな仕様か</h2>
+   <p>2人のプレイヤーが交互に「○」と「×」をマス目に配置し、縦・横・斜めのいずれかに3つ揃えることを目指す三目並べゲームです。コマンドライン上で動作します。</p>
+  </section>
+
+  <section class="section-container">
+   <h2>自分のどんな知識が役に立ったか</h2>
+   <ul class="knowledge-list">
+    <li>
+     <h3>Java</h3>
+     <p>
+      ゲームのロジック（ターン管理、勝敗判定、引き分け判定）を実装しました。また、標準入出力（`System.in`と`System.out`）を用いて、ユーザーからの入力を受け付けたり、ゲームの盤面を表示したりする機能を実装しました。
+     </p>
+    </li>
+    <li>
+     <h3>オブジェクト指向プログラミング</h3>
+     <p>ボードの状態を管理するクラスや、プレイヤーを管理するクラスなど、役割ごとにクラスを分けて設計しました。これにより、コードの可読性と再利用性を高めました。</p>
+    </li>
+   </ul>
+  </section>
+
+  <section class="section-container">
+   <h2>どこに苦労してどんな工夫をしたか</h2>
+   <ul class="difficulty-list">
+    <li>
+     <h3>苦労した点</h3>
+     <p>ユーザーが入力した値が正しい形式であるか（例：数字かどうか、範囲内かどうか）を判定するバリデーション処理の実装に苦労しました。</p>
+    </li>
+    <li>
+     <h3>工夫した点</h3>
+     <p>`try-catch`文を適切に利用して例外処理を行い、不正な入力があった場合にエラーメッセージを表示し、再入力を促すロジックを実装しました。これにより、堅牢なアプリケーションにしました。</p>
+    </li>
+   </ul>
+  </section>
+
+  <section class="section-container">
+   <h2>課題は何か、どうしていくか</h2>
+   <ul class="challenge-list">
+    <li>
+     <h3>課題</h3>
+     <p>現在は2人対戦のみですが、CPU（コンピュータ）との対戦機能を実装することで、1人でも遊べるように改善したいです。</p>
+    </li>
+    <li>
+     <h3>今後の展望</h3>
+     <p>CPUの思考アルゴリズムとして、簡単なランダム選択から、より戦略的なAIへと進化させることで、ゲームの面白さを向上させたいです。</p>
+    </li>
+   </ul>
+  </section>
+ </main>
+
+ <footer>
+  <p>&copy; 2025 ポートフォリオ</p>
+ </footer>
+</body>
+
+</html>
